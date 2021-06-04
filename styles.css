@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: gray;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+}
+
+header{
+    text-align: center;
+    padding: 10px;
+    text-decoration-style: dotted;
+    text-decoration-line: underline;
+    border: dotted red;
+
+
+}
+
+#userInput-container{
+    border: dotted blue;
+    border-radius: 10px;
+    padding: 20px;
+    flex-direction: column;
+    float: left;
+    columns: 3;
+
+
+}
+#movieTitle{
+    border: dotted rgb(0, 174, 255);
+    border-radius: 10px;
+    padding: 5px;
+}
+#genreChoice{
+    border: dotted rgb(7, 20, 202);
+    border-radius: 10px;
+    padding: 5px;
+    flex-direction: column;
+}
+
+#searchBtn{
+    border: dotted rgb(3, 3, 66);
+    border-radius: 10px;
+    padding: 5px;
+    flex-direction: column;
+    
+}
+
+#searchHistory-container{
+    border: dotted purple;
+    border-radius: 10px;
+    padding: 10px;
+    flex-direction: column;
+}
+#movieTrailer-container{
+    border: dotted green;
+    border-radius: 10px;
+    padding: 10px;
+    flex-direction: column;
+}
+#scores-reviews-container{
+    border: dotted yellow;
+    border-radius: 10px;
+    padding: 10px;
+    flex-direction: column;
+}
+#reviewsGrid{
+    border: dotted teal;
+    border-radius: 10px;
+    padding: 10px;
+    flex-direction: column;
+}
